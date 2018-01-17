@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Rejestracja wizyt</string>
     <string name="um_w_wizyt">Umów wizytę</string>
-    <string name="wpisz_pesel_pacjenta_dla_kt_reg_chcesz_um_wi_wizyt">Wpisz pesel pacjenta dla któreg chcesz umówić wizytę</string>
+    <string name="wpisz_pesel_pacjenta_dla_kt_reg_chcesz_um_wi_wizyt">Wpisz pesel pacjenta dla którego chcesz umówić wizytę</string>
     <string name="podaj_numer_pesel">Podaj numer pesel</string>
     <string name="todo">TODO</string>
     <string name="wybierz_lekarza">WYBIERZ LEKARZA</string>

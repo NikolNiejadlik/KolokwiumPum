@@ -9,35 +9,34 @@ android:orientation="vertical"
 tools:context="com.example.student.rejestracjawizyt.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
         android:background="@color/colorPrimary"
+        android:gravity="center"
         android:text="@string/um_w_wizyt"
         android:textColor="@android:color/white"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="20sp" />
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_marginTop="40dp"
-    android:text="@string/wpisz_pesel_pacjenta_dla_kt_reg_chcesz_um_wi_wizyt"
-    android:gravity="center"
-    android:textColor="@color/colorPrimary"
-    android:textSize="15sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/wpisz_pesel_pacjenta_dla_kt_reg_chcesz_um_wi_wizyt"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp" />
 
-<EditText
-    android:id="@+id/edit_text"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:hint="@string/podaj_numer_pesel"
-    android:layout_marginTop="50dp"
-    android:gravity="center"
-    android:textColor="@color/colorPrimary" />
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:hint="@string/podaj_numer_pesel"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary" />
 
     <ImageView
         android:id="@+id/check"
@@ -45,19 +44,20 @@ tools:context="com.example.student.rejestracjawizyt.MainActivity">
         android:layout_height="85dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="30dp"
+        android:layout_gravity="center"
         android:src="@drawable/ic_healing_black_24dp"
         android:contentDescription="@string/todo" />
 
-<Button
-    android:id="@+id/button_danie"
-    android:layout_width="match_parent"
-    android:layout_height="50dp"
-    android:layout_gravity="bottom"
-    android:layout_marginTop="140dp"
-    android:layout_marginLeft="15dp"
-    android:layout_marginRight="15dp"
-    android:background="@color/colorPrimary"
-    android:text="@string/wybierz_lekarza"
-    android:textColor="@android:color/white" />
+    <Button
+        android:id="@+id/button_danie"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/wybierz_lekarza"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
